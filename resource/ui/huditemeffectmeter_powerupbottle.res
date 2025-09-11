@@ -1,0 +1,122 @@
+"Resource/UI/HudItemEffectMeter_PowerupBottles.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"		
+	}
+
+	"BG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BG"
+		"xpos"			"110"
+		"ypos"			"r35"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"25"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"bgcolor_override"			"HL2BG"
+		"visible"		"1"
+		"enabled"		"1"		
+	}
+	
+	"ItemEffectIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"-4"
+		"ypos"			"-3"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_critboost_red"
+		"scaleImage"	"1"
+		"pin_to_sibling"	"BG"
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"42"
+		"ypos"					"5"
+		"zpos"					"2"
+		"wide"					"56"
+		"tall"					"30"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"0"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"north"
+		"centerwrap"			"1"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Default"
+		"fgcolor_override"		"CSSOrange"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"25"
+		"ypos"					"23"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}					
+	
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"-10"
+		"ypos"					"9-1"
+		"zpos"					"2"
+		"wide"					"36"
+		"tall"					"36"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"font"					"HudNumbers2"
+		"fgcolor"				"CSSOrange"
+		"pin_to_sibling"		"BG"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
+	}
+}
