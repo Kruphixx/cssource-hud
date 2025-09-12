@@ -413,11 +413,6 @@
 					"tall"			"9"
 					"proportionaltoparent"	"1"
 
-					if_mini
-					{
-						"ypos"		"rs1-10"
-					}
-
 					"ProgressBar"
 					{
 						"ControlName"	"ProgressBar"

@@ -744,8 +744,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
+				"tall"		"13"
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -775,7 +774,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -785,7 +784,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -795,7 +794,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -804,7 +803,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -813,7 +812,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -825,9 +824,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"
 				"tall"		"44"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -838,7 +836,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -851,9 +849,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"36"
-				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -863,7 +860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -885,9 +882,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"24"
-				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -908,7 +904,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -919,7 +915,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -930,10 +926,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -956,9 +950,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1013,8 +1006,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3750,11 +3743,11 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"image"					"replay/thumbnails/panels/red_panel.vmt"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"
+			"draw_corner_height" 	"11"
 		}
 		TFFatLineBorderRedBGMoreOpaque
 		{
@@ -3772,11 +3765,11 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"image"					"replay/thumbnails/panels/blue_panel.vmt"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"
+			"draw_corner_height" 	"11"
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{
