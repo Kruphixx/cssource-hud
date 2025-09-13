@@ -114,8 +114,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"PaintBackgroundType" "2"
+			"PaintBackgroundType" "0"
 			"bgcolor_override"	"BGBrightSolid"
+		}
+
+		"InnerPanelBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"InnerPanelBG"
+			"xpos"			"10"
+			"ypos"			"50"
+			"zpos"			"0"
+			"wide"			"480"
+			"tall"			"230"
+			"paintBorder"	"1"
+			"border"		"SRCBorderConvex"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 		
 		"InnerBGPanel"
@@ -128,7 +143,7 @@
 			"wide"			"0"
 			"tall"			"0"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"border"		"MainMenuBGBorder"
 		}
 	
@@ -206,7 +221,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBrightSolid"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"MouseOverTabPanel"
@@ -224,7 +239,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"255 170 0 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"MouseOverUpgradePanel"
@@ -242,7 +257,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"255 170 0 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel1"
@@ -260,7 +275,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel2"
@@ -278,7 +293,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel3"
@@ -296,7 +311,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel4"
@@ -314,7 +329,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel5"
@@ -332,7 +347,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel6"
@@ -350,7 +365,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveSeparatorPanel"
@@ -598,8 +613,6 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -623,8 +636,6 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -648,8 +659,6 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"1"
 			"Command"		"respec"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -729,5 +738,5 @@
 			"brighttext"	"0"
 			"Command"		"nexttip"
 		}
-	}	
+	}
 }

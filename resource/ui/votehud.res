@@ -716,6 +716,7 @@
 			"Default"		"0"
 			"font"			"C_Src_Marlett6"
 			"textinsetx"	"-5"
+			"paintBorder"	"0"
 
 			"pin_to_sibling"		"Border"
 			"pin_to_sibling_corner"	"1"

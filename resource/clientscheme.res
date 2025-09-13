@@ -200,7 +200,7 @@ Scheme
 		"BGBrightSolid"				"160 160 160 255"
 		"BGDark"				" 0   0   0  128"
 
-		"CSSOrange"				"180 125 13 150"
+		"CSSOrange"				"188 112 0 128"
 		"CSSOrangeBright"		"255 170 0 255"
 		"HL2Yellow"				"255 220 0 100"
 		"HL2YellowSolid"		"181 166 72 100"
