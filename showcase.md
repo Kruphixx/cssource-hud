@@ -4,7 +4,7 @@
 ![Main Menu](../screenshots/01_MainMenu.jpg)
 
 ## Mode Selection
-![Mode Selection](../screenshots/02_ModeSelect.jpg)
+![Mode Selection](../screenshots/02_ModeSelection.jpg)
 
 ## Casual
 ![Casual](../screenshots/03_Casual.jpg)
