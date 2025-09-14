@@ -5,8 +5,8 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"xpos"		"62"
-		"ypos"		"r90"
+		"xpos"		"10"
+		"ypos"		"r65"
 	}
 	"ItemEffectMeterLabel"
 	{
@@ -25,7 +25,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel2"
 		"xpos"					"r220"
-		"ypos"					"0"
+		"ypos"					"-10"
 		"zpos"					"2"
 		"wide"					"48"
 		"tall"					"31"

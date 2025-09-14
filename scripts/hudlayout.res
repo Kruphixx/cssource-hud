@@ -231,7 +231,7 @@
 		"enabled"	"1"
 		"xpos"		"16"
 		"ypos"		"r75" //rs1-54
-		"wide"		"102"
+		"wide"		"80"
 		"tall"		"40"
 		"alpha"		"255"
 	}
