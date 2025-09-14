@@ -222,6 +222,7 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBrightSolid"
 			"PaintBackgroundType"	"0"
+			"border"		"SRCBorderConvex"
 		}
 		
 		"MouseOverTabPanel"
@@ -276,6 +277,7 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
 			"PaintBackgroundType"	"0"
+			"border"		"SRCBorderConvex"
 		}
 		
 		"InactiveTabPanel2"
@@ -294,6 +296,7 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
 			"PaintBackgroundType"	"0"
+			"border"		"SRCBorderConvex"
 		}
 		
 		"InactiveTabPanel3"
@@ -312,6 +315,7 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
 			"PaintBackgroundType"	"0"
+			"border"		"SRCBorderConvex"
 		}
 		
 		"InactiveTabPanel4"
@@ -330,6 +334,7 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
 			"PaintBackgroundType"	"0"
+			"border"		"SRCBorderConvex"
 		}
 		
 		"InactiveTabPanel5"
@@ -348,6 +353,7 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
 			"PaintBackgroundType"	"0"
+			"border"		"SRCBorderConvex"
 		}
 		
 		"InactiveTabPanel6"
@@ -366,6 +372,7 @@
 			"tabPosition"		"0"
 			"bgcolor_override"	"BGBright"
 			"PaintBackgroundType"	"0"
+			"border"		"SRCBorderConvex"
 		}
 		
 		"InactiveSeparatorPanel"
