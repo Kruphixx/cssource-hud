@@ -75,7 +75,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-		"fgcolor_override"		"180 125 13 150"
+		"fgcolor_override"		"CSSOrange"
 	}
 	"ItemEffectMeter"
 	{	
@@ -108,7 +108,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudNumbersSmall"
-		"fgcolor_override"		"180 125 13 150"
+		"fgcolor_override"		"CSSOrange"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"45"
 		"textinsety"	"-2"

@@ -81,10 +81,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-		"paintbackground"		"0"
-		"paintbackgroundtype"		"2"
-		"RoundedCorners"		"2"
-		"bgcolor_override"		"HL2BG"
 		"fgcolor"				"CSSOrange"
 	}
 

@@ -149,7 +149,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
 		"xpos"			"r132-25"
-		"ypos"			"r76"
+		"ypos"			"r78"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"36"
