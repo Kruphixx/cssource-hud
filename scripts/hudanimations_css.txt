@@ -30,7 +30,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 }
 
-//===========================================
+//====================================
 
 //Health Dying Pulse
 event HudHealthDyingPulse
@@ -80,16 +80,10 @@ event HudHealthDyingPulseStop
 
 }
 
-//===========================================
+//====================================
 
 event HudLowAmmoPulse
 {
-	Animate	AmmoNoClip				BgColor		"HL2DamagedBg"			Linear 	0.0		0.1
-	Animate AmmoNoClip				BgColor		"HL2BG"					Deaccel 0.1 	1.75
-
-	Animate	AmmoInClip				BgColor		"HL2DamagedBg"			Linear 	0.0		0.1
-	Animate AmmoInClip				BgColor		"HL2BG"					Deaccel 0.1 	1.75
-
 	Animate	AmmoInClipShadow		BgColor		"HL2DamagedBg"			Linear 	0.0		0.1
 	Animate AmmoInClipShadow		BgColor		"CSSOrange"				Linear	0.1		1.2
 	
@@ -123,12 +117,6 @@ event HudLowAmmoPulsePulse
 
 	Animate AmmoInClipShadow			BgColor		"HL2BrightDamagedFg"	Linear	0.0		0.1
 	Animate AmmoInClipShadow			BgColor		"HL2DamagedFg"			Deaccel	0.1		0.8
-	
-	Animate AmmoNoClip			BgColor		"HL2DamagedBg"			Linear	0.0		0.1
-	Animate AmmoNoClip			BgColor		"HL2BG"					Deaccel	0.1		0.8
-
-	Animate AmmoInClip			BgColor		"HL2DamagedBg"			Linear	0.0		0.1
-	Animate AmmoInClip			BgColor		"HL2BG"					Deaccel	0.1		0.8
 
 	Animate AmmoIcon			FgColor		"HL2BrightDamagedFg"	Linear	0.0		0.1
 	Animate AmmoIcon			FgColor		"HL2DamagedFg"			Deaccel	0.1		0.8
@@ -147,9 +135,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulsePulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-	
-	Animate	AmmoNoClip			BgColor		"HL2BG"				Linear 	0.0		0.0
-	Animate	AmmoInClip			BgColor		"HL2BG"				Linear 	0.0		0.0
+
 	Animate AmmoNoClip 			FgColor		"CSSOrange"			Linear	0.0		0.0
 	Animate AmmoInClip 			FgColor		"CSSOrange"			Linear	0.0		0.0
 	Animate AmmoInClipShadow 	BgColor		"CSSOrange"			Linear	0.0		0.0
@@ -157,7 +143,7 @@ event HudLowAmmoPulseStop
 	Animate AmmoIcon 			FgColor		"CSSOrange"			Linear	0.0		0.0
 }
 
-//===========================================
+//====================================
 
 // Spy Disguise
 event HudSpyDisguiseChanged
@@ -172,7 +158,7 @@ event HudSpyDisguiseHide
 event HudSpyDisguiseFadeIn
 {
 	Animate TeamImageBG			position	"16 r102"		Linear 0.0 0.2	
-	Animate PlayerStatusAnchor	position	"36 r138"		Linear 0.0 0.2	
+	Animate PlayerStatusAnchor	position	"-390 r138"		Linear 0.0 0.2	
 	Animate KillstreakBG		position	"65 r88"		Linear 0.0 0.2	
 	
 	//Animate DisguiseBG			Size		"102 24"		Linear 0.0 0.2
@@ -182,43 +168,12 @@ event HudSpyDisguiseFadeIn
 event HudSpyDisguiseFadeOut
 {
 	Animate TeamImageBG			position	"16 r72"		Linear 0.0 0.2	
-	Animate PlayerStatusAnchor	position	"36 r108"		Linear 0.0 0.2	
+	Animate PlayerStatusAnchor	position	"-390 r100"		Linear 0.0 0.2	
 	Animate KillstreakBG		position	"65 r58"		Linear 0.0 0.2	
 	
 	//Animate DisguiseBG			Size		"102 0"			Linear 0.0 0.0
 	Animate DisguiseBG			Position	"0 16"			Linear 0.0 0.0
 	
-}
-
-//===========================================
-
-event TeamStatus_PlayerDead
-{
-}
-
-event TeamStatus_PlayerAlive
-{
-}
-
-//====================================
-
-event HudMedicCharged
-{
-}
-
-event HudMedicChargedStop
-{
-}
-
-//====================================
-
-
-event RDPositiveScorePulse
-{
-}
-
-event RDNegativeScorePulse
-{
 }
 
 //====================================
@@ -238,3 +193,12 @@ event HudTournament_MoveChatWindow
 	RunEvent CompetitiveGame_LowerChatWindow 0
 	RunEvent CompetitiveGame_RestoreChatWindow 10
 }
+
+//====================================
+
+event TeamStatus_PlayerDead {}
+event TeamStatus_PlayerAlive {}
+event HudMedicCharged {}
+event HudMedicChargedStop {}
+event RDPositiveScorePulse {}
+event RDNegativeScorePulse {}
