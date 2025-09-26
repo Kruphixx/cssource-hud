@@ -86,6 +86,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
+			"textinsetx"	"-2"
+			"textinsety"	"-2"
 			"font"			"HudFontSmallBold"
 			"defaultbgcolor_override"	"128 128 128 255"
 			"armedbgcolor_override"		"128 128 128 255"

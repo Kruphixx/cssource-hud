@@ -84,7 +84,7 @@
 		"ypos"			"cs-0.5"
 		"zpos"			"-1"
 		"wide"			"630"
-		"tall"			"358"
+		"tall"			"356"
 		"paintBackground"	"1"
 		"paintBackgroundType"	"2"
 		"bgcolor_override"	"TransparentBlack"
