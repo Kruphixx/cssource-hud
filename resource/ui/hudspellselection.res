@@ -2,10 +2,6 @@
 {		
 	HudSpellMenu
 	{
-		"if_killstreak_visible"
-		{
-			"ypos"			"r90"
-		}
 	}
 			
 	"ItemEffectMeterBG"
@@ -28,6 +24,22 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"				
 	}
+
+	"SpellBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SpellBG"
+		"xpos"			"110"
+		"ypos"			"r35"
+		"zpos"			"4"
+		"wide"			"70"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"HL2BG"
+	}
 	
 	"Spellbook"
 	{
@@ -39,26 +51,25 @@
 		"wide"			"64"
 		"tall"			"56"
 		"visible"		"0"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"spellbook_book"
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
 	
 	"SpellIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"10"
-		"ypos"			"4"
+		"xpos"			"115"
+		"ypos"			"r32"
 		"zpos"			"7"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"drawcolor"		"255 220 0 255"
+		"drawcolor"		"188 112 0 128"
 	}
 	
 	"ActionText"
@@ -85,9 +96,8 @@
 		"textAlignment" "west"
 		"xpos"			"35"
 		"ypos"			"25"
-		"wide"			"100"
-		"tall"			"10"
-		"fgcolor"		"tanlight"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 	}
 	
@@ -98,11 +108,10 @@
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
-		"wide"			"102"
-		"tall"			"36"
-		"fgcolor"		"0 0 0 0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 	}
 	
 	"CountText"
@@ -111,14 +120,12 @@
 		"fieldName"		"CountText"
 		"font"			"HudNumbers2"
 		"labelText"		"%counttext%"
-		"textAlignment" "west"
-		"xpos"			"0"
-		"ypos"			"0"
+		"textAlignment" "east"
+		"xpos"			"122"
+		"ypos"			"r37"
 		"wide"			"102"
-		"tall"			"36"
+		"tall"			"25"
 		"fgcolor"		"CSSOrange"
-		"bgcolor_override"		"HL2BG"
-		"paintbackgroundtype"	"2"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"50"
 		"textinsety"	"-1"
