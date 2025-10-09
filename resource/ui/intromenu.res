@@ -262,7 +262,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
-			"image"			"glyph_multiplayer"
+			"image"			"replay/thumbnails/cs_logo"
 			"scaleImage"	"1"
 		}	
 	}

@@ -42,19 +42,32 @@
 			"AutoResize" "0"
 			"skip_autoresize" "1"
 		}
-	}	
+	}
+
+	"MainBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"cs-0.5"
+		"ypos"			"r35"
+		"zpos"			"-1"
+		"wide"			"148"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"bgcolor_override"		"HL2BG"
+		"paintbackgroundtype"	"2"
+	}
 	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"xpos"			"0"
+		"ypos"			"-6"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
+		"wide"			"140"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -62,58 +75,24 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"Default"
 		"fgcolor"		"TanLight"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
+
+		"pin_to_sibling"		"MainBG"
+		"pin_to_sibling_corner"	"4"
+		"pin_corner_to_sibling"	"6"
 	}	
 			
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
-		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"CarriedContainer"
@@ -285,47 +264,39 @@
 				"ControlName"			"ImagePanel"
 				"xpos"					"0"
 				"ypos"					"0"
-				"zpos"					"10"
-				"wide"					"f0"
-				"tall"					"f0"
-				"scaleimage"			"1"
-				"visible"				"1"
-				"enabled"				"1"
-				"Image"					"../hud/objectives_corepanel_bg"
-				"proportionalToParent"	"1"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
+				"enabled"				"0"
 			}
 
 			"FlagImageBlue"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"FlagImageBlue"
-				"xpos"			"15"
-				"ypos"			"8"
-				"zpos"			"4"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/hud_obj_status_ammo_64"
-				"scaleImage"	"1"
-				"proportionalToParent"	"1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 
 			"EscrowBlue"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowBlue"
-				"xpos"			"40"
-				"ypos"			"7"
+				"xpos"			"80"
+				"ypos"			"19"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"west"	
 				"labelText"		"%blue_escrow%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"		
+				"font"			"HudNumbersSmall"
+				"fgcolor"		"TanLight"
 				"proportionalToParent"	"1"
 			}
 			
@@ -333,51 +304,41 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowBlueShadow"
-				"xpos"			"41"
-				"ypos"			"8"
-				"zpos"			"4"
-				"wide"			"25"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"center"	
-				"labelText"		"%blue_escrow%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 
 			"FlagImageRed"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"FlagImageRed"
-				"xpos"			"271"
-				"ypos"			"8"
-				"zpos"			"4"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/hud_obj_status_ammo_64"
-				"scaleImage"	"1"
-				"proportionalToParent"	"1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 
 			"EscrowRed"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowRed"
-				"xpos"			"235"
-				"ypos"			"7"
+				"xpos"			"190"
+				"ypos"			"19"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"east"	
 				"labelText"		"%red_escrow%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"		
+				"font"			"HudNumbersSmall"
+				"fgcolor"		"TanLight"
 				"proportionalToParent"	"1"
 			}
 			
@@ -385,26 +346,20 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowRedShadow"
-				"xpos"			"236"
-				"ypos"			"8"
-				"zpos"			"4"
-				"wide"			"25"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"center"	
-				"labelText"		"%red_escrow%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 
 			"BlueVictoryContainer"
 			{
 				"fieldName"				"BlueVictoryContainer"
 				"ControlName"			"EditablePanel"
-				"xpos"					"25"
-				"ypos"					"22"
+				"xpos"					"70"
+				"ypos"					"10"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"f0"
@@ -425,7 +380,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"HudFontSmallBold"
+					"font"			"Default"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
 				}
@@ -434,18 +389,12 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"1"
-					"ypos"			"1"
-					"zpos"			"7"
-					"wide"			"95"
-					"tall"			"35"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 				}
 
 				"VictoryLabelTime"
@@ -461,7 +410,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
+					"font"			"Default"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
 
@@ -474,22 +423,12 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
-					"ypos"			"1"
-					"zpos"			"7"
-					"wide"			"55"
-					"tall"			"35"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
-
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 				}
 			}
 
@@ -499,23 +438,9 @@
 				"ControlName"			"ImagePanel"
 				"xpos"					"0"
 				"ypos"					"0"
-				"zpos"					"2"
-				"wide"					"150"
-				"tall"					"f0"
-				"scaleimage"			"0"
-				"visible"				"1"
-				"proportionalToParent"	"1"
-				"positionImage"			"0"
-				"drawcolor"				"84 111 127 255"
-				"Image"					"../hud/objectives_corepanel_meter_solid"
-
-				"left_offset"			"10"
-				"right_offset"			"0"
-				"standard_color"		"84  111 127 255"
-				"bright_color"			"110 159 189 255"
-				"left_to_right"			"0"
-				"blink_threshold"		"1.0"
-				"blink_rate"			"10"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
 			}
 
 			"BlueProgressBarEscrow"
@@ -524,23 +449,9 @@
 				"ControlName"			"ImagePanel"
 				"xpos"					"0"
 				"ypos"					"0"
-				"zpos"					"1"
-				"wide"					"150"
-				"tall"					"f0"
-				"scaleimage"			"0"
-				"visible"				"1"
-				"proportionalToParent"	"1"
-				"positionImage"			"0"
-				"drawcolor"				"141 160 171 255"
-				"Image"					"../hud/objectives_corepanel_meter"
-
-				"left_offset"			"10"
-				"right_offset"			"0"
-				"standard_color"		"127 143 152 255"
-				"bright_color"			"177 193 202 255"
-				"left_to_right"			"0"
-				"blink_threshold"		"1"
-				"blink_rate"			"20"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
 			}
 
 			"RedVictoryContainer"
@@ -548,7 +459,7 @@
 				"fieldName"				"RedVictoryContainer"
 				"ControlName"			"EditablePanel"
 				"xpos"					"25"
-				"ypos"					"22"
+				"ypos"					"10"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"f0"
@@ -560,8 +471,8 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabel"
-					"xpos"			"140"
-					"ypos"			"0"
+					"xpos"			"120"
+					"ypos"			"10"
 					"zpos"			"8"
 					"wide"			"90"
 					"tall"			"35"
@@ -569,7 +480,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_RedFinale"
-					"font"			"HudFontSmallBold"
+					"font"			"Default"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
 				}
@@ -578,18 +489,12 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"141"
-					"ypos"			"1"
-					"zpos"			"7"
-					"wide"			"90"
-					"tall"			"35"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"#TF_RD_RedFinale"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 				}
 
 				"VictoryLabelTime"
@@ -605,7 +510,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
+					"font"			"Default"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
 
@@ -618,22 +523,12 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
-					"ypos"			"1"
-					"zpos"			"7"
-					"wide"			"55"
-					"tall"			"35"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
-
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 				}
 			}
 
@@ -641,50 +536,22 @@
 			{
 				"fieldName"				"RedProgressBarFill"
 				"ControlName"			"ImagePanel"
-				"xpos"					"150"
+				"xpos"					"0"
 				"ypos"					"0"
-				"zpos"					"2"
-				"wide"					"150"
-				"tall"					"f0"
-				"scaleimage"			"0"
-				"positionImage"			"0"
-				"visible"				"1"
-				"proportionalToParent"	"1"
-				"drawcolor"				"171 59 59 255"
-				"Image"					"../hud/objectives_corepanel_meter_solid_right"
-
-				"left_offset"			"0"
-				"right_offset"			"9"
-				"standard_color"		"171 59 59 255"
-				"bright_color"			"222 65 65 255"
-				"left_to_right"			"1"
-				"blink_threshold"		"1.0"
-				"blink_rate"			"10"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
 			}
 
 			"RedProgressBarEscrow"
 			{
 				"fieldName"				"RedProgressBarEscrow"
 				"ControlName"			"ImagePanel"
-				"xpos"					"150"
+				"xpos"					"0"
 				"ypos"					"0"
-				"zpos"					"1"
-				"wide"					"150"
-				"tall"					"f0"
-				"scaleimage"			"0"
-				"positionImage"			"0"
-				"visible"				"1"
-				"proportionalToParent"	"1"
-				"drawcolor"				"212 151 151 255"
-				"Image"					"../hud/objectives_corepanel_meter_right"
-
-				"left_offset"			"0"
-				"right_offset"			"9"
-				"standard_color"		"212 151 151 255"
-				"bright_color"			"250 201 201 255"
-				"left_to_right"			"1"
-				"blink_threshold"		"1"
-				"blink_rate"			"20"
+				"wide"					"0"
+				"tall"					"0"
+				"visible"				"0"
 			}
 		}
 
@@ -692,8 +559,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
-			"xpos"				"80"
-			"ypos"				"r48"
+			"xpos"				"135"
+			"ypos"				"r41"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -713,33 +580,23 @@
 				"tall"			"35"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"west"	
+				"textAlignment"	"west"
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"TanLight"		
+				"font"			"HudNumbers2"
+				"fgcolor"		"HL2Blue"
 				"proportionalToParent"	"1"
-			}	
+			}
 		
 			"ScoreShadow"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-19"
-				"zpos"			"7"
-				"wide"			"55"
-				"tall"			"35"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"west"	
-				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 		}
 
@@ -747,8 +604,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
-			"xpos"				"r140"
-			"ypos"				"r48"
+			"xpos"				"c7"
+			"ypos"				"r41"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -770,31 +627,21 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"TanLight"	
-				"proportionalToParent"	"1"	
+				"font"			"HudNumbers2"
+				"fgcolor"		"HL2Red"
+				"proportionalToParent"	"1"
 			}	
 		
 			"ScoreShadow"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-19"
-				"zpos"			"7"
-				"wide"			"55"
-				"tall"			"35"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"east"	
-				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 		}
 
@@ -1004,7 +851,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CountdownContainer"
 		"xpos"					"c-150"
-		"ypos"					"r120"
+		"ypos"					"r59"
 		"zpos"					"1"
 		"wide"					"300"
 		"tall"					"110"
