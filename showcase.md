@@ -86,3 +86,6 @@
 
 ## Arena - Win Panel
 ![Arena - Win Panel](../screenshots/29_ArenaWin.jpg)
+
+## Player Destruction
+![Player Destruction](../screenshots/30_PD.jpg)
