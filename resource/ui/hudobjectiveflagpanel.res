@@ -115,7 +115,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-2"
 		"zpos"			"0"
 		"wide"			"75"
 		"tall"			"36"
@@ -194,7 +194,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-2"
 		"zpos"			"0"
 		"wide"			"75"
 		"tall"			"36"
@@ -289,10 +289,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FlagBG"
 		"xpos"			"cs-0.5"
-		"ypos"			"r48"
+		"ypos"			"r35"
 		"zpos"			"-1"
 		"wide"			"148"
-		"tall"			"36"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -302,6 +302,11 @@
 		"if_specialdelivery"
 		{
 			"wide"	"48"
+		}
+
+		"if_hybrid"
+		{
+			"visible"	"0"
 		}
 		
 		"if_mvm"
@@ -325,15 +330,10 @@
 		"pin_to_sibling"		"FlagBG"
 		"pin_to_sibling_corner"	"4"
 		"pin_corner_to_sibling"	"4"
-		
+
 		"if_hybrid"
 		{
-			"ypos"		"r142"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"r142"
+			"ypos"	"35"
 		}
 	}
 	
@@ -342,10 +342,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"o1"
-		"tall"			"36"
+		"tall"			"28"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -359,27 +359,17 @@
 		"pin_to_sibling"		"CarriedImageAnchor"
 		"pin_to_sibling_corner"	"4"
 		"pin_corner_to_sibling"	"4"
-		
-		"if_hybrid"
-		{
-			"ypos"		"r142"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"r142"
-		}
-	}		
+	}
 	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-6"
 		"zpos"			"10"
 		"wide"			"174"
-		"tall"			"22"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
@@ -444,7 +434,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"-4"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"5"
 		"wide"			"36"
 		"tall"			"36"
@@ -457,8 +447,7 @@
 		
 		"if_hybrid"
 		{
-			"visible"	"0"
-			"ypos"		"r100"
+			"ypos"		"40"
 		}
 		
 		"if_hybrid_single"
@@ -475,7 +464,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"0"
+			"ypos"		"5"
 		}
 		
 		"if_no_flags"
@@ -489,7 +478,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"4"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"5"
 		"wide"			"36"
 		"tall"			"36"

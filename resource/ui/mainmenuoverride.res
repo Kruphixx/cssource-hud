@@ -212,6 +212,18 @@
 		"scaleImage"	"1"
 	}
 
+	"ChatPin"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"r200"
+		"ypos"			"375"
+	}
+
+	"partychat"
+	{
+		"pin_to_sibling"	"ChatPin"
+	}
+
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
